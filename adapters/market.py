@@ -42,11 +42,11 @@ class MarketAdapter:
     """Base adapter. Free CCXT public endpoints — no API key needed.
     Falls back through exchange list if primary is geo-blocked."""
     
-    # Exchanges in fallback order (some are geo-blocked from Railway IPs)
-    _FALLBACK_EXCHANGES = ["bybit", "kucoin", "kraken", "coinbase", "binance"]
+    # Exchanges in fallback order (US-native first for Railway compatibility)
+    _FALLBACK_EXCHANGES = ["coinbase", "kraken", "gemini", "bybit", "kucoin"]
 
     def __init__(self, exchange_name: str | None = None):
-        self.exchange_name = exchange_name or os.getenv("CCXT_EXCHANGE", "bybit")
+        self.exchange_name = exchange_name or os.getenv("CCXT_EXCHANGE", "coinbase")
         self._exchange = None
         self._failure_count = 0
         self._max_failures = 5
