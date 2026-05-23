@@ -117,6 +117,9 @@ class PaperTrader:
             if hold_hours >= exit_cfg["max_hold_hours"]:
                 return "exit"
 
+        # Debug: print evaluation state every cycle
+        rsi_str = f"{rsi:.1f}" if rsi is not None else "N/A"
+        print(f"[eval] {asset} price={current_price:.2f} rsi={rsi_str} vol_spike={volume_spike} trend_up={trend_up} sma={sma:.2f}")
         return "hold"
 
 
@@ -215,6 +218,9 @@ async def run_loop(assets: list[str], max_iterations: int | None = None):
                 print(f"[loop] Error evaluating {asset}: {e}")
 
         write_heartbeat(loop_count, action_taken)
+        # Status line every cycle so we can see the worker is alive
+        open_count = len(trader.open_positions)
+        print(f"[loop] cycle={loop_count} action={action_taken} open_positions={open_count} exchange={trader._adapter.exchange_name}")
         await asyncio.sleep(60)
 
 
