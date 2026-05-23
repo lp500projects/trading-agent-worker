@@ -95,7 +95,7 @@ class PaperTrader:
 
         # Entry conditions
         entry = self.strategy["entry"]
-        if rsi is not None and rsi < entry["rsi_threshold"] and volume_spike and trend_up:
+        if rsi is not None and rsi < entry["rsi_threshold"] and volume_spike:
             # Check min volume filter
             if current_volume * current_price >= self.strategy["filter"]["min_volume_usd"]:
                 # Check max concurrent
