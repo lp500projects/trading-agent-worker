@@ -30,8 +30,6 @@
     30|ENV GOAL_PATH=/app/goal.yaml
     31|ENV PYTHONUNBUFFERED=1
     32|
-    33|# Persistent volume mount point for state files
-    34|VOLUME ["/app/state"]
+    33|# Attach a Railway Volume at /app/state via the dashboard (Settings → Volumes)
+    34|CMD ["python", "main.py"]
     35|
-    36|CMD ["python", "main.py"]
-    37|
