@@ -1,0 +1,18 @@
+# Trading Agent Goals — defines success and failure boundaries.
+# schema_version: 1
+
+assets:
+  - BTC/USDT
+  - XRP/USDT
+
+success:
+  target_return_30d_pct: 5.0       # +5% per 30 days
+  min_sharpe: 1.2                   # risk-adjusted quality bar
+
+failure:
+  max_drawdown_pct: 8.0             # bail at -8%
+
+reflection:
+  every_n_closed_trades: 25         # Hermes reflects every 25 closed trades
+
+mode: paper                         # paper | live
