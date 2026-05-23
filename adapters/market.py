@@ -39,13 +39,18 @@ class TickerSnapshot:
 
 
 class MarketAdapter:
-    """Base adapter. Free CCXT public endpoints — no API key needed."""
+    """Base adapter. Free CCXT public endpoints — no API key needed.
+    Falls back through exchange list if primary is geo-blocked."""
+    
+    # Exchanges in fallback order (some are geo-blocked from Railway IPs)
+    _FALLBACK_EXCHANGES = ["bybit", "kucoin", "kraken", "coinbase", "binance"]
 
     def __init__(self, exchange_name: str | None = None):
-        self.exchange_name = exchange_name or os.getenv("CCXT_EXCHANGE", "binance")
+        self.exchange_name = exchange_name or os.getenv("CCXT_EXCHANGE", "bybit")
         self._exchange = None
         self._failure_count = 0
         self._max_failures = 5
+        self._tried_exchanges: set[str] = set()
 
     @property
     def circuit_open(self) -> bool:
@@ -61,7 +66,20 @@ class MarketAdapter:
                 config["apiKey"] = api_key
                 config["secret"] = secret
             self._exchange = getattr(ccxt, self.exchange_name)(config)
+            self._tried_exchanges.add(self.exchange_name)
         return self._exchange
+
+    def _try_next_exchange(self):
+        """Rotate to the next fallback exchange."""
+        import ccxt
+        for ex in self._FALLBACK_EXCHANGES:
+            if ex not in self._tried_exchanges:
+                self.exchange_name = ex
+                self._exchange = None
+                self._failure_count = 0
+                print(f"[adapter] Switching to exchange: {ex}")
+                return self._get_exchange()
+        return None
 
     async def fetch_ohlcv(
         self, asset: str, timeframe: str = "1m", limit: int = 50
@@ -92,11 +110,21 @@ class MarketAdapter:
                 ]
             except Exception as e:
                 last_err = e
+                # Try next exchange before retrying same one
+                if "451" in str(e) or "blocked" in str(e).lower() or "restricted" in str(e).lower():
+                    next_ex = self._try_next_exchange()
+                    if next_ex is not None:
+                        attempt -= 1  # retry with new exchange
+                        continue
                 wait = 2 ** attempt
                 await asyncio.sleep(wait)
 
         self._failure_count += 1
         if self._failure_count >= self._max_failures:
+            # Try fallback before giving up entirely
+            if self._try_next_exchange() is not None:
+                self._failure_count = 0
+                return await self.fetch_ohlcv(asset, timeframe, limit)
             print(f"[adapter] CIRCUIT BREAKER OPEN for {asset} after {self._max_failures} failures: {last_err}")
         return []
 
@@ -122,11 +150,21 @@ class MarketAdapter:
                 )
             except Exception as e:
                 last_err = e
+                # Try next exchange before retrying same one
+                if "451" in str(e) or "blocked" in str(e).lower() or "restricted" in str(e).lower():
+                    next_ex = self._try_next_exchange()
+                    if next_ex is not None:
+                        attempt -= 1
+                        continue
                 wait = 2 ** attempt
                 await asyncio.sleep(wait)
 
         self._failure_count += 1
         if self._failure_count >= self._max_failures:
+            # Try fallback before giving up entirely
+            if self._try_next_exchange() is not None:
+                self._failure_count = 0
+                return await self.fetch_ticker(asset)
             print(f"[adapter] CIRCUIT BREAKER OPEN for {asset} after {self._max_failures} failures: {last_err}")
         return None
 
