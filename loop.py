@@ -16,6 +16,7 @@ import yaml
 
 from adapters.market import MarketAdapter, OHLCV, TickerSnapshot
 from score import TradeRecord, score_trades
+from filter import should_enter
 
 STATE_DIR = Path(os.environ.get("STATE_DIR", Path(__file__).parent / "state"))
 STRATEGY_PATH = STATE_DIR / "strategy.yaml"
@@ -165,6 +166,14 @@ async def run_loop(assets: list[str], max_iterations: int | None = None):
                 action = await trader.evaluate(asset)
 
                 if action == "entry":
+                    # === FUNDING FILTER CHECK ===
+                    approved, reason = await should_enter(asset, "long")
+                    if not approved:
+                        print(f"[filter] BLOCKED {asset}: {reason}")
+                        action_taken = f"blocked {asset} (funding filter)"
+                        write_heartbeat(loop_count, action_taken)
+                        continue
+
                     ticker = await trader._adapter.fetch_ticker(asset)
                     price = ticker.last if ticker else 0.0
                     if price <= 0:
