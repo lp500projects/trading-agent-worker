@@ -1,14 +1,14 @@
-# Active trading strategy — v01 initial seed.
+# Active trading strategy — v02 relaxed for demo.
 # schema_version: 1
 # This file is REWRITTEN by the reflection loop (deterministic or Hermes).
 # Only ONE variable changes per reflection.
 
-version: 1
+version: 2
 created: "2026-05-23"
 
 entry:
-  rsi_threshold: 30          # buy when RSI drops below this (oversold)
-  volume_spike_factor: 1.2   # volume > 1.2x 20-period avg
+  rsi_threshold: 45          # buy when RSI drops below this (relaxed for triggers)
+  volume_spike_factor: 1.2   # volume > 1.2x 20-period avg (relaxed from 2.0)
   trend_window: 50           # SMA period for trend filter
 
 exit:
