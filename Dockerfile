@@ -22,6 +22,7 @@ COPY main.py .
 COPY loop.py .
 COPY reflect.py .
 COPY score.py .
+COPY filter.py .
 COPY adapters/ adapters/
 COPY state/ state/
 
