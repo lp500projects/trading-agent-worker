@@ -1,177 +1,187 @@
 {
-  "timestamp": "2026-07-02T22:33:05.309681+00:00",
+  "timestamp": "2026-07-03T21:48:31.762865+00:00",
   "total_wallets_scanned": 500,
-  "total_wallets_tracked": 4132,
-  "active_wallets": 232,
-  "total_positions": 960,
-  "total_notional_usd": 460239952.27,
-  "total_unrealized_pnl": 512415.77,
-  "long_pct": 38.16,
-  "short_pct": 61.84,
-  "long_notional": 175617511.01,
-  "short_notional": 284622441.26,
+  "total_wallets_tracked": 4201,
+  "active_wallets": 236,
+  "total_positions": 969,
+  "total_notional_usd": 421862765.78,
+  "total_unrealized_pnl": 1040026.42,
+  "long_pct": 41.76,
+  "short_pct": 58.24,
+  "long_notional": 176172255.17,
+  "short_notional": 245690510.61,
   "top_positions": [
     {
       "coin": "ETH",
       "direction": "SHORT",
       "notional": 85003000.0,
-      "pnl": 203349.15,
+      "pnl": -3111650.85,
       "address": "0x0ddf9bae..."
-    },
-    {
-      "coin": "BTC",
-      "direction": "SHORT",
-      "notional": 26823552.58,
-      "pnl": 23958.34,
-      "address": "0x09bc1cf4..."
-    },
-    {
-      "coin": "SOL",
-      "direction": "SHORT",
-      "notional": 21807476.51,
-      "pnl": -658373.15,
-      "address": "0x023a3d05..."
     },
     {
       "coin": "ETH",
       "direction": "SHORT",
-      "notional": 19784464.42,
-      "pnl": -1477.74,
+      "notional": 28484096.68,
+      "pnl": -443268.1,
       "address": "0x0622a219..."
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "notional": 27058490.53,
+      "pnl": 1512523.74,
+      "address": "0x152e41f0..."
+    },
+    {
+      "coin": "SOL",
+      "direction": "SHORT",
+      "notional": 18165290.72,
+      "pnl": -942929.38,
+      "address": "0x023a3d05..."
     },
     {
       "coin": "BTC",
       "direction": "SHORT",
-      "notional": 19341465.0,
-      "pnl": -965061.95,
-      "address": "0x007d76ee..."
+      "notional": 16665445.25,
+      "pnl": -187343.48,
+      "address": "0x09bc1cf4..."
     },
     {
       "coin": "BTC",
       "direction": "LONG",
       "notional": 12405960.0,
-      "pnl": -99576.83,
+      "pnl": 128223.17,
       "address": "0x15b32566..."
-    },
-    {
-      "coin": "HYPE",
-      "direction": "LONG",
-      "notional": 12385056.24,
-      "pnl": 129122.31,
-      "address": "0x152e41f0..."
     },
     {
       "coin": "ETH",
       "direction": "LONG",
       "notional": 11653740.0,
-      "pnl": 218194.23,
+      "pnl": 678794.23,
       "address": "0x06bc596f..."
     },
     {
-      "coin": "BTC",
-      "direction": "SHORT",
-      "notional": 10478790.63,
-      "pnl": 7494.72,
-      "address": "0x14f8899f..."
-    },
-    {
-      "coin": "BTC",
-      "direction": "SHORT",
-      "notional": 10270397.0,
-      "pnl": -190031.14,
-      "address": "0x12f147f0..."
-    },
-    {
-      "coin": "BTC",
+      "coin": "ETH",
       "direction": "LONG",
-      "notional": 9432513.87,
-      "pnl": -13521.6,
-      "address": "0x10f1d87f..."
-    },
-    {
-      "coin": "BTC",
-      "direction": "SHORT",
-      "notional": 9153743.81,
-      "pnl": 6359.69,
-      "address": "0x0fd468a7..."
+      "notional": 9824857.0,
+      "pnl": 564992.36,
+      "address": "0x020ca66c..."
     },
     {
       "coin": "HYPE",
       "direction": "LONG",
       "notional": 8005666.54,
-      "pnl": 252495.82,
+      "pnl": 916320.4,
       "address": "0x15b32566..."
     },
     {
       "coin": "ZEC",
       "direction": "LONG",
       "notional": 7649818.0,
-      "pnl": 574900.68,
+      "pnl": 1211590.68,
       "address": "0x1ee7a73c..."
-    },
-    {
-      "coin": "ETH",
-      "direction": "LONG",
-      "notional": 7315381.2,
-      "pnl": 247844.18,
-      "address": "0x020ca66c..."
     },
     {
       "coin": "ETH",
       "direction": "LONG",
       "notional": 7181820.0,
-      "pnl": 454678.45,
+      "pnl": 756178.45,
       "address": "0x1ee7a73c..."
-    },
-    {
-      "coin": "HYPE",
-      "direction": "SHORT",
-      "notional": 6937953.0,
-      "pnl": -274084.57,
-      "address": "0x007d76ee..."
     },
     {
       "coin": "BTC",
       "direction": "LONG",
       "notional": 6579180.56,
-      "pnl": 270421.47,
+      "pnl": 395544.75,
       "address": "0x0c4a3a7a..."
     },
     {
       "coin": "ETH",
       "direction": "LONG",
       "notional": 6218839.72,
-      "pnl": 668174.34,
+      "pnl": 939026.54,
       "address": "0x0c4a3a7a..."
     },
     {
       "coin": "BTC",
       "direction": "LONG",
-      "notional": 6200428.5,
-      "pnl": 260319.95,
+      "notional": 6212524.5,
+      "pnl": 364674.5,
       "address": "0x08bed3f9..."
+    },
+    {
+      "coin": "BTC",
+      "direction": "SHORT",
+      "notional": 5988248.67,
+      "pnl": -22672.76,
+      "address": "0x0fd468a7..."
+    },
+    {
+      "coin": "SUI",
+      "direction": "LONG",
+      "notional": 5254950.0,
+      "pnl": 547222.14,
+      "address": "0x16588c49..."
+    },
+    {
+      "coin": "HYPE",
+      "direction": "LONG",
+      "notional": 5119776.0,
+      "pnl": 551818.01,
+      "address": "0x1ee7a73c..."
+    },
+    {
+      "coin": "ETH",
+      "direction": "SHORT",
+      "notional": 4535193.66,
+      "pnl": -41815.38,
+      "address": "0x023a3d05..."
+    },
+    {
+      "coin": "HYPE",
+      "direction": "SHORT",
+      "notional": 3784338.0,
+      "pnl": -459940.67,
+      "address": "0x007d76ee..."
+    },
+    {
+      "coin": "HYPE",
+      "direction": "SHORT",
+      "notional": 3655504.31,
+      "pnl": -319099.18,
+      "address": "0x023a3d05..."
     }
   ],
   "divergence_signals": [
     {
+      "coin": "HYPE",
+      "signal": "BULLISH_DIVERGENCE",
+      "long_ratio": 0.828,
+      "short_ratio": 0.172,
+      "whale_count": 82,
+      "total_notional": 64074356.38,
+      "long_notional": 53084285.94,
+      "short_notional": 10990070.44
+    },
+    {
       "coin": "SUI",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.802,
-      "short_ratio": 0.198,
-      "whale_count": 15,
-      "total_notional": 6931181.96,
-      "long_notional": 5562241.1,
-      "short_notional": 1368940.86
+      "long_ratio": 0.795,
+      "short_ratio": 0.205,
+      "whale_count": 14,
+      "total_notional": 7009584.92,
+      "long_notional": 5574257.34,
+      "short_notional": 1435327.58
     },
     {
       "coin": "XRP",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.865,
-      "short_ratio": 0.135,
-      "whale_count": 17,
-      "total_notional": 4643038.74,
-      "long_notional": 4017586.26,
-      "short_notional": 625452.49
+      "long_ratio": 0.756,
+      "short_ratio": 0.244,
+      "whale_count": 15,
+      "total_notional": 3030087.6,
+      "long_notional": 2290592.99,
+      "short_notional": 739494.6
     },
     {
       "coin": "PAXG",
@@ -179,219 +189,179 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 8,
-      "total_notional": 2952234.61,
-      "long_notional": 2952234.61,
+      "total_notional": 3026967.59,
+      "long_notional": 3026967.59,
       "short_notional": 0
     },
     {
       "coin": "BNB",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.919,
-      "short_ratio": 0.081,
-      "whale_count": 12,
-      "total_notional": 2363742.97,
-      "long_notional": 2172372.21,
-      "short_notional": 191370.76
-    },
-    {
-      "coin": "BCH",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.827,
-      "short_ratio": 0.173,
-      "whale_count": 6,
-      "total_notional": 2029447.71,
-      "long_notional": 1677607.74,
-      "short_notional": 351839.97
-    },
-    {
-      "coin": "AVAX",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.786,
-      "short_ratio": 0.214,
-      "whale_count": 7,
-      "total_notional": 1147008.26,
-      "long_notional": 901803.73,
-      "short_notional": 245204.53
+      "long_ratio": 0.925,
+      "short_ratio": 0.075,
+      "whale_count": 10,
+      "total_notional": 2369913.44,
+      "long_notional": 2192705.5,
+      "short_notional": 177207.94
     },
     {
       "coin": "TRX",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.928,
-      "short_ratio": 0.072,
+      "long_ratio": 0.924,
+      "short_ratio": 0.076,
       "whale_count": 5,
-      "total_notional": 1142626.17,
-      "long_notional": 1060420.34,
-      "short_notional": 82205.83
-    },
-    {
-      "coin": "DOT",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.945,
-      "short_ratio": 0.055,
-      "whale_count": 5,
-      "total_notional": 1063275.26,
-      "long_notional": 1005218.08,
-      "short_notional": 58057.18
+      "total_notional": 1222819.46,
+      "long_notional": 1129837.66,
+      "short_notional": 92981.8
     },
     {
       "coin": "DOGE",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.779,
-      "short_ratio": 0.221,
-      "whale_count": 10,
-      "total_notional": 1045487.03,
-      "long_notional": 814083.43,
-      "short_notional": 231403.61
+      "long_ratio": 0.806,
+      "short_ratio": 0.194,
+      "whale_count": 12,
+      "total_notional": 1097352.59,
+      "long_notional": 883951.29,
+      "short_notional": 213401.3
+    },
+    {
+      "coin": "DOT",
+      "signal": "BULLISH_DIVERGENCE",
+      "long_ratio": 0.963,
+      "short_ratio": 0.037,
+      "whale_count": 4,
+      "total_notional": 1045855.95,
+      "long_notional": 1007551.76,
+      "short_notional": 38304.19
+    },
+    {
+      "coin": "BCH",
+      "signal": "BULLISH_DIVERGENCE",
+      "long_ratio": 0.841,
+      "short_ratio": 0.159,
+      "whale_count": 7,
+      "total_notional": 962309.3,
+      "long_notional": 809768.65,
+      "short_notional": 152540.64
+    },
+    {
+      "coin": "AVAX",
+      "signal": "BULLISH_DIVERGENCE",
+      "long_ratio": 0.702,
+      "short_ratio": 0.298,
+      "whale_count": 7,
+      "total_notional": 810668.94,
+      "long_notional": 568891.19,
+      "short_notional": 241777.75
+    },
+    {
+      "coin": "XLM",
+      "signal": "BULLISH_DIVERGENCE",
+      "long_ratio": 0.716,
+      "short_ratio": 0.284,
+      "whale_count": 6,
+      "total_notional": 758140.29,
+      "long_notional": 542531.72,
+      "short_notional": 215608.57
     },
     {
       "coin": "PENDLE",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.883,
-      "short_ratio": 0.117,
+      "long_ratio": 0.851,
+      "short_ratio": 0.149,
       "whale_count": 4,
-      "total_notional": 587346.63,
-      "long_notional": 518653.38,
-      "short_notional": 68693.25
+      "total_notional": 623376.94,
+      "long_notional": 530474.44,
+      "short_notional": 92902.5
     },
     {
       "coin": "INJ",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.724,
-      "short_ratio": 0.276,
+      "long_ratio": 0.715,
+      "short_ratio": 0.285,
       "whale_count": 4,
-      "total_notional": 586191.13,
-      "long_notional": 424159.52,
+      "total_notional": 567646.91,
+      "long_notional": 405615.3,
       "short_notional": 162031.61
     },
     {
       "coin": "FIL",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.786,
-      "short_ratio": 0.214,
-      "whale_count": 4,
-      "total_notional": 497242.88,
-      "long_notional": 390828.02,
-      "short_notional": 106414.85
-    },
-    {
-      "coin": "UNI",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.735,
-      "short_ratio": 0.265,
-      "whale_count": 7,
-      "total_notional": 448678.51,
-      "long_notional": 329627.57,
-      "short_notional": 119050.94
-    },
-    {
-      "coin": "GRAM",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.945,
-      "short_ratio": 0.055,
-      "whale_count": 3,
-      "total_notional": 444288.36,
-      "long_notional": 420019.04,
-      "short_notional": 24269.32
-    },
-    {
-      "coin": "kPEPE",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.757,
-      "short_ratio": 0.243,
-      "whale_count": 6,
-      "total_notional": 419333.98,
-      "long_notional": 317335.77,
-      "short_notional": 101998.21
+      "long_ratio": 0.769,
+      "short_ratio": 0.231,
+      "whale_count": 5,
+      "total_notional": 498833.96,
+      "long_notional": 383579.34,
+      "short_notional": 115254.61
     },
     {
       "coin": "OP",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.75,
-      "short_ratio": 0.25,
+      "long_ratio": 0.733,
+      "short_ratio": 0.267,
       "whale_count": 4,
-      "total_notional": 395840.31,
-      "long_notional": 296958.75,
-      "short_notional": 98881.56
+      "total_notional": 404634.72,
+      "long_notional": 296789.06,
+      "short_notional": 107845.66
     },
     {
-      "coin": "ALGO",
+      "coin": "UNI",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.873,
-      "short_ratio": 0.127,
-      "whale_count": 3,
-      "total_notional": 330982.2,
-      "long_notional": 289065.13,
-      "short_notional": 41917.07
+      "long_ratio": 0.703,
+      "short_ratio": 0.297,
+      "whale_count": 6,
+      "total_notional": 401195.12,
+      "long_notional": 282144.18,
+      "short_notional": 119050.94
     },
     {
       "coin": "APT",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.874,
-      "short_ratio": 0.126,
+      "long_ratio": 0.868,
+      "short_ratio": 0.132,
       "whale_count": 4,
-      "total_notional": 328492.26,
-      "long_notional": 287244.41,
-      "short_notional": 41247.85
+      "total_notional": 339301.44,
+      "long_notional": 294423.49,
+      "short_notional": 44877.95
+    },
+    {
+      "coin": "ALGO",
+      "signal": "BULLISH_DIVERGENCE",
+      "long_ratio": 0.86,
+      "short_ratio": 0.14,
+      "whale_count": 3,
+      "total_notional": 296615.87,
+      "long_notional": 255170.69,
+      "short_notional": 41445.18
     },
     {
       "coin": "WLFI",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.713,
-      "short_ratio": 0.287,
+      "long_ratio": 0.929,
+      "short_ratio": 0.071,
       "whale_count": 6,
-      "total_notional": 314825.72,
-      "long_notional": 224433.24,
-      "short_notional": 90392.48
-    },
-    {
-      "coin": "LTC",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.759,
-      "short_ratio": 0.241,
-      "whale_count": 6,
-      "total_notional": 284626.03,
-      "long_notional": 216069.41,
-      "short_notional": 68556.62
+      "total_notional": 264269.16,
+      "long_notional": 245525.88,
+      "short_notional": 18743.29
     },
     {
       "coin": "PURR",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 5,
-      "total_notional": 241275.5,
-      "long_notional": 241275.5,
-      "short_notional": 0
-    },
-    {
-      "coin": "kSHIB",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.714,
-      "short_ratio": 0.286,
-      "whale_count": 3,
-      "total_notional": 236368.83,
-      "long_notional": 168667.8,
-      "short_notional": 67701.03
-    },
-    {
-      "coin": "RENDER",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 3,
-      "total_notional": 194371.29,
-      "long_notional": 194371.29,
-      "short_notional": 0
+      "long_ratio": 0.997,
+      "short_ratio": 0.003,
+      "whale_count": 7,
+      "total_notional": 246705.48,
+      "long_notional": 245936.45,
+      "short_notional": 769.03
     },
     {
       "coin": "ARB",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.752,
-      "short_ratio": 0.248,
+      "long_ratio": 0.765,
+      "short_ratio": 0.235,
       "whale_count": 3,
-      "total_notional": 187723.82,
-      "long_notional": 141161.07,
-      "short_notional": 46562.76
+      "total_notional": 188729.76,
+      "long_notional": 144374.37,
+      "short_notional": 44355.38
     },
     {
       "coin": "HBAR",
@@ -399,9 +369,19 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 3,
-      "total_notional": 84673.01,
-      "long_notional": 84673.01,
+      "total_notional": 89237.32,
+      "long_notional": 89237.32,
       "short_notional": 0
+    },
+    {
+      "coin": "DYDX",
+      "signal": "BULLISH_DIVERGENCE",
+      "long_ratio": 0.716,
+      "short_ratio": 0.284,
+      "whale_count": 5,
+      "total_notional": 70578.45,
+      "long_notional": 50528.14,
+      "short_notional": 20050.31
     },
     {
       "coin": "NIL",
@@ -409,199 +389,199 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 3,
-      "total_notional": 39214.34,
-      "long_notional": 39214.34,
+      "total_notional": 41655.48,
+      "long_notional": 41655.48,
       "short_notional": 0
-    },
-    {
-      "coin": "KAITO",
-      "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.822,
-      "short_ratio": 0.178,
-      "whale_count": 3,
-      "total_notional": 36377.95,
-      "long_notional": 29886.19,
-      "short_notional": 6491.76
     },
     {
       "coin": "RESOLV",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 0.93,
-      "short_ratio": 0.07,
+      "long_ratio": 0.947,
+      "short_ratio": 0.053,
       "whale_count": 4,
-      "total_notional": 24073.28,
-      "long_notional": 22384.13,
+      "total_notional": 31945.6,
+      "long_notional": 30256.46,
       "short_notional": 1689.14
     },
     {
-      "coin": "ORDI",
+      "coin": "KAITO",
       "signal": "BULLISH_DIVERGENCE",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
+      "long_ratio": 0.954,
+      "short_ratio": 0.046,
       "whale_count": 3,
-      "total_notional": 9996.31,
-      "long_notional": 9996.31,
-      "short_notional": 0
+      "total_notional": 31342.94,
+      "long_notional": 29886.19,
+      "short_notional": 1456.75
     },
     {
       "coin": "ETH",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.272,
-      "short_ratio": 0.728,
-      "whale_count": 56,
-      "total_notional": 154249691.26,
-      "long_notional": 41901847.84,
-      "short_notional": 112347843.41
+      "long_ratio": 0.243,
+      "short_ratio": 0.757,
+      "whale_count": 62,
+      "total_notional": 165441863.75,
+      "long_notional": 40122495.16,
+      "short_notional": 125319368.58
     },
     {
       "coin": "SOL",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.1,
-      "short_ratio": 0.9,
-      "whale_count": 58,
-      "total_notional": 33569126.08,
-      "long_notional": 3363209.43,
-      "short_notional": 30205916.65
+      "long_ratio": 0.113,
+      "short_ratio": 0.887,
+      "whale_count": 56,
+      "total_notional": 29446610.63,
+      "long_notional": 3323827.64,
+      "short_notional": 26122782.99
     },
     {
       "coin": "NEAR",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.232,
-      "short_ratio": 0.768,
-      "whale_count": 16,
-      "total_notional": 4934862.4,
-      "long_notional": 1142569.11,
-      "short_notional": 3792293.29
+      "long_ratio": 0.034,
+      "short_ratio": 0.966,
+      "whale_count": 14,
+      "total_notional": 4713162.4,
+      "long_notional": 160283.71,
+      "short_notional": 4552878.69
     },
     {
       "coin": "AAVE",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.224,
-      "short_ratio": 0.776,
-      "whale_count": 12,
-      "total_notional": 3930833.88,
-      "long_notional": 881582.66,
-      "short_notional": 3049251.22
+      "long_ratio": 0.193,
+      "short_ratio": 0.807,
+      "whale_count": 10,
+      "total_notional": 4396393.06,
+      "long_notional": 850444.56,
+      "short_notional": 3545948.51
     },
     {
       "coin": "PUMP",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.105,
-      "short_ratio": 0.895,
-      "whale_count": 11,
-      "total_notional": 2792917.3,
-      "long_notional": 292394.67,
-      "short_notional": 2500522.63
+      "long_ratio": 0.081,
+      "short_ratio": 0.919,
+      "whale_count": 10,
+      "total_notional": 3930137.92,
+      "long_notional": 316528.86,
+      "short_notional": 3613609.06
     },
     {
       "coin": "XPL",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.124,
-      "short_ratio": 0.876,
-      "whale_count": 9,
-      "total_notional": 1819914.04,
-      "long_notional": 224850.7,
-      "short_notional": 1595063.34
-    },
-    {
-      "coin": "ASTER",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.045,
-      "short_ratio": 0.955,
+      "long_ratio": 0.088,
+      "short_ratio": 0.912,
       "whale_count": 8,
-      "total_notional": 1806110.61,
-      "long_notional": 80905.52,
-      "short_notional": 1725205.09
+      "total_notional": 2411520.81,
+      "long_notional": 211275.84,
+      "short_notional": 2200244.96
     },
     {
       "coin": "FARTCOIN",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.226,
-      "short_ratio": 0.774,
-      "whale_count": 13,
-      "total_notional": 1628805.41,
-      "long_notional": 367686.54,
-      "short_notional": 1261118.88
+      "long_ratio": 0.175,
+      "short_ratio": 0.825,
+      "whale_count": 17,
+      "total_notional": 1876247.02,
+      "long_notional": 328734.34,
+      "short_notional": 1547512.68
+    },
+    {
+      "coin": "ASTER",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.047,
+      "short_ratio": 0.953,
+      "whale_count": 8,
+      "total_notional": 1754326.71,
+      "long_notional": 82316.13,
+      "short_notional": 1672010.58
     },
     {
       "coin": "WLD",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.184,
-      "short_ratio": 0.816,
-      "whale_count": 13,
-      "total_notional": 1489409.99,
-      "long_notional": 273909.69,
-      "short_notional": 1215500.3
-    },
-    {
-      "coin": "ENA",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.09,
-      "short_ratio": 0.91,
-      "whale_count": 9,
-      "total_notional": 1342747.27,
-      "long_notional": 120640.62,
-      "short_notional": 1222106.66
+      "long_ratio": 0.19,
+      "short_ratio": 0.81,
+      "whale_count": 15,
+      "total_notional": 1494327.51,
+      "long_notional": 283745.54,
+      "short_notional": 1210581.97
     },
     {
       "coin": "TAO",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.027,
-      "short_ratio": 0.973,
+      "long_ratio": 0.04,
+      "short_ratio": 0.96,
+      "whale_count": 10,
+      "total_notional": 1467782.19,
+      "long_notional": 58606.66,
+      "short_notional": 1409175.53
+    },
+    {
+      "coin": "ENA",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.095,
+      "short_ratio": 0.905,
       "whale_count": 9,
-      "total_notional": 1163988.03,
-      "long_notional": 31831.6,
-      "short_notional": 1132156.43
+      "total_notional": 1271235.86,
+      "long_notional": 120640.62,
+      "short_notional": 1150595.25
+    },
+    {
+      "coin": "kPEPE",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.149,
+      "short_ratio": 0.851,
+      "whale_count": 6,
+      "total_notional": 1169002.13,
+      "long_notional": 174044.56,
+      "short_notional": 994957.57
     },
     {
       "coin": "TRUMP",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.021,
-      "short_ratio": 0.979,
+      "long_ratio": 0.022,
+      "short_ratio": 0.978,
       "whale_count": 11,
-      "total_notional": 1092052.56,
-      "long_notional": 23372.28,
-      "short_notional": 1068680.28
-    },
-    {
-      "coin": "ADA",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.203,
-      "short_ratio": 0.797,
-      "whale_count": 6,
-      "total_notional": 961485.11,
-      "long_notional": 194843.3,
-      "short_notional": 766641.81
-    },
-    {
-      "coin": "JUP",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.094,
-      "short_ratio": 0.906,
-      "whale_count": 7,
-      "total_notional": 819474.66,
-      "long_notional": 77277.46,
-      "short_notional": 742197.2
-    },
-    {
-      "coin": "ZRO",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 6,
-      "total_notional": 731701.35,
-      "long_notional": 41.63,
-      "short_notional": 731659.73
+      "total_notional": 1082153.56,
+      "long_notional": 23809.48,
+      "short_notional": 1058344.08
     },
     {
       "coin": "LINK",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.226,
-      "short_ratio": 0.774,
-      "whale_count": 10,
-      "total_notional": 608379.41,
-      "long_notional": 137714.9,
-      "short_notional": 470664.52
+      "long_ratio": 0.116,
+      "short_ratio": 0.884,
+      "whale_count": 9,
+      "total_notional": 898542.53,
+      "long_notional": 103839.98,
+      "short_notional": 794702.55
+    },
+    {
+      "coin": "ADA",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.138,
+      "short_ratio": 0.862,
+      "whale_count": 8,
+      "total_notional": 868302.84,
+      "long_notional": 119527.6,
+      "short_notional": 748775.24
+    },
+    {
+      "coin": "JUP",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.099,
+      "short_ratio": 0.901,
+      "whale_count": 9,
+      "total_notional": 847141.6,
+      "long_notional": 83698.59,
+      "short_notional": 763443.01
+    },
+    {
+      "coin": "ZRO",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.002,
+      "short_ratio": 0.998,
+      "whale_count": 6,
+      "total_notional": 690246.75,
+      "long_notional": 1087.7,
+      "short_notional": 689159.05
     },
     {
       "coin": "FET",
@@ -609,49 +589,49 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 3,
-      "total_notional": 464255.45,
+      "total_notional": 563128.23,
       "long_notional": 0,
-      "short_notional": 464255.45
+      "short_notional": 563128.23
     },
     {
       "coin": "AERO",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.06,
-      "short_ratio": 0.94,
-      "whale_count": 5,
-      "total_notional": 410160.35,
-      "long_notional": 24532.99,
-      "short_notional": 385627.36
+      "long_ratio": 0.08,
+      "short_ratio": 0.92,
+      "whale_count": 6,
+      "total_notional": 436607.58,
+      "long_notional": 35102.62,
+      "short_notional": 401504.96
+    },
+    {
+      "coin": "ONDO",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.015,
+      "short_ratio": 0.985,
+      "whale_count": 7,
+      "total_notional": 424774.18,
+      "long_notional": 6565.83,
+      "short_notional": 418208.35
     },
     {
       "coin": "GRASS",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.063,
-      "short_ratio": 0.937,
-      "whale_count": 5,
-      "total_notional": 409702.64,
-      "long_notional": 25785.1,
-      "short_notional": 383917.54
+      "long_ratio": 0.083,
+      "short_ratio": 0.917,
+      "whale_count": 6,
+      "total_notional": 396914.32,
+      "long_notional": 32956.99,
+      "short_notional": 363957.33
     },
     {
       "coin": "MON",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 7,
-      "total_notional": 309794.72,
-      "long_notional": 10.37,
-      "short_notional": 309784.36
-    },
-    {
-      "coin": "STRK",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 3,
-      "total_notional": 275834.53,
-      "long_notional": 0,
-      "short_notional": 275834.53
+      "long_ratio": 0.01,
+      "short_ratio": 0.99,
+      "whale_count": 8,
+      "total_notional": 316507.28,
+      "long_notional": 3009.35,
+      "short_notional": 313497.94
     },
     {
       "coin": "WIF",
@@ -659,149 +639,149 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 3,
-      "total_notional": 257259.07,
+      "total_notional": 300063.99,
       "long_notional": 0,
-      "short_notional": 257259.07
+      "short_notional": 300063.99
     },
     {
-      "coin": "kBONK",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.113,
-      "short_ratio": 0.887,
-      "whale_count": 6,
-      "total_notional": 242725.66,
-      "long_notional": 27343.6,
-      "short_notional": 215382.06
-    },
-    {
-      "coin": "W",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.128,
-      "short_ratio": 0.872,
-      "whale_count": 3,
-      "total_notional": 239709.7,
-      "long_notional": 30799.9,
-      "short_notional": 208909.8
-    },
-    {
-      "coin": "JTO",
-      "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.177,
-      "short_ratio": 0.823,
-      "whale_count": 5,
-      "total_notional": 232554.12,
-      "long_notional": 41262.16,
-      "short_notional": 191291.95
-    },
-    {
-      "coin": "STABLE",
+      "coin": "STRK",
       "signal": "BEARISH_DIVERGENCE",
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 3,
-      "total_notional": 214280.4,
-      "long_notional": 0.03,
-      "short_notional": 214280.38
+      "total_notional": 289678.86,
+      "long_notional": 0,
+      "short_notional": 289678.86
     },
     {
-      "coin": "IO",
+      "coin": "kBONK",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.184,
-      "short_ratio": 0.816,
-      "whale_count": 3,
-      "total_notional": 203981.11,
-      "long_notional": 37578.13,
-      "short_notional": 166402.98
+      "long_ratio": 0.11,
+      "short_ratio": 0.89,
+      "whale_count": 6,
+      "total_notional": 248987.65,
+      "long_notional": 27343.6,
+      "short_notional": 221644.05
     },
     {
-      "coin": "BERA",
+      "coin": "JTO",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.123,
-      "short_ratio": 0.877,
+      "long_ratio": 0.228,
+      "short_ratio": 0.772,
+      "whale_count": 5,
+      "total_notional": 244022.98,
+      "long_notional": 55548.28,
+      "short_notional": 188474.7
+    },
+    {
+      "coin": "W",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.149,
+      "short_ratio": 0.851,
       "whale_count": 3,
-      "total_notional": 200861.89,
-      "long_notional": 24650.14,
-      "short_notional": 176211.75
+      "total_notional": 242041.83,
+      "long_notional": 36107.13,
+      "short_notional": 205934.7
     },
     {
       "coin": "AR",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.049,
-      "short_ratio": 0.951,
+      "long_ratio": 0.043,
+      "short_ratio": 0.957,
       "whale_count": 3,
-      "total_notional": 196968.09,
-      "long_notional": 9585.54,
-      "short_notional": 187382.55
+      "total_notional": 211449.8,
+      "long_notional": 9157.24,
+      "short_notional": 202292.56
     },
     {
-      "coin": "VVV",
+      "coin": "IO",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.136,
-      "short_ratio": 0.864,
-      "whale_count": 11,
-      "total_notional": 191812.03,
-      "long_notional": 26075.01,
-      "short_notional": 165737.02
+      "long_ratio": 0.209,
+      "short_ratio": 0.791,
+      "whale_count": 3,
+      "total_notional": 209828.65,
+      "long_notional": 43794.96,
+      "short_notional": 166033.69
     },
     {
-      "coin": "EIGEN",
+      "coin": "MORPHO",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.192,
-      "short_ratio": 0.808,
-      "whale_count": 4,
-      "total_notional": 172711.98,
-      "long_notional": 33135.14,
-      "short_notional": 139576.84
+      "long_ratio": 0.209,
+      "short_ratio": 0.791,
+      "whale_count": 3,
+      "total_notional": 197914.22,
+      "long_notional": 41449.68,
+      "short_notional": 156464.54
+    },
+    {
+      "coin": "BERA",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.066,
+      "short_ratio": 0.934,
+      "whale_count": 3,
+      "total_notional": 188637.49,
+      "long_notional": 12425.73,
+      "short_notional": 176211.75
     },
     {
       "coin": "MEGA",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.081,
-      "short_ratio": 0.919,
+      "long_ratio": 0.161,
+      "short_ratio": 0.839,
       "whale_count": 6,
-      "total_notional": 153693.88,
-      "long_notional": 12517.16,
-      "short_notional": 141176.72
+      "total_notional": 170455.95,
+      "long_notional": 27495.88,
+      "short_notional": 142960.07
     },
     {
-      "coin": "APE",
+      "coin": "VVV",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.289,
-      "short_ratio": 0.711,
-      "whale_count": 3,
-      "total_notional": 97174.28,
-      "long_notional": 28068.04,
-      "short_notional": 69106.25
+      "long_ratio": 0.239,
+      "short_ratio": 0.761,
+      "whale_count": 8,
+      "total_notional": 169818.0,
+      "long_notional": 40665.63,
+      "short_notional": 129152.38
     },
     {
       "coin": "ETHFI",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.001,
-      "short_ratio": 0.999,
+      "long_ratio": 0.073,
+      "short_ratio": 0.927,
+      "whale_count": 4,
+      "total_notional": 111003.5,
+      "long_notional": 8055.66,
+      "short_notional": 102947.84
+    },
+    {
+      "coin": "APE",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.267,
+      "short_ratio": 0.733,
       "whale_count": 3,
-      "total_notional": 95298.81,
-      "long_notional": 94.7,
-      "short_notional": 95204.11
+      "total_notional": 97437.64,
+      "long_notional": 25967.2,
+      "short_notional": 71470.44
     },
     {
       "coin": "MELANIA",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.193,
-      "short_ratio": 0.807,
+      "long_ratio": 0.17,
+      "short_ratio": 0.83,
       "whale_count": 3,
-      "total_notional": 85291.95,
+      "total_notional": 96674.44,
       "long_notional": 16435.39,
-      "short_notional": 68856.56
+      "short_notional": 80239.04
     },
     {
       "coin": "VIRTUAL",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.109,
-      "short_ratio": 0.891,
-      "whale_count": 4,
-      "total_notional": 73765.4,
-      "long_notional": 8066.31,
-      "short_notional": 65699.09
+      "long_ratio": 0.068,
+      "short_ratio": 0.932,
+      "whale_count": 5,
+      "total_notional": 88491.71,
+      "long_notional": 6059.46,
+      "short_notional": 82432.25
     },
     {
       "coin": "SEI",
@@ -809,19 +789,29 @@
       "long_ratio": 0.035,
       "short_ratio": 0.965,
       "whale_count": 4,
-      "total_notional": 58008.06,
+      "total_notional": 59173.15,
       "long_notional": 2045.87,
-      "short_notional": 55962.19
+      "short_notional": 57127.29
+    },
+    {
+      "coin": "ICP",
+      "signal": "BEARISH_DIVERGENCE",
+      "long_ratio": 0.129,
+      "short_ratio": 0.871,
+      "whale_count": 3,
+      "total_notional": 49581.95,
+      "long_notional": 6415.99,
+      "short_notional": 43165.96
     },
     {
       "coin": "POPCAT",
       "signal": "BEARISH_DIVERGENCE",
-      "long_ratio": 0.163,
-      "short_ratio": 0.837,
+      "long_ratio": 0.147,
+      "short_ratio": 0.853,
       "whale_count": 3,
-      "total_notional": 38407.81,
+      "total_notional": 42594.73,
       "long_notional": 6279.4,
-      "short_notional": 32128.41
+      "short_notional": 36315.33
     },
     {
       "coin": "SAGA",
@@ -829,209 +819,239 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 3,
-      "total_notional": 29237.69,
+      "total_notional": 12979.98,
       "long_notional": 0,
-      "short_notional": 29237.69
+      "short_notional": 12979.98
     },
     {
       "coin": "BTC",
       "signal": "NEUTRAL",
-      "long_ratio": 0.369,
-      "short_ratio": 0.631,
-      "whale_count": 126,
-      "total_notional": 138840262.09,
-      "long_notional": 51249619.14,
-      "short_notional": 87590642.95
-    },
-    {
-      "coin": "HYPE",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.695,
-      "short_ratio": 0.305,
-      "whale_count": 78,
-      "total_notional": 51553626.29,
-      "long_notional": 35806626.16,
-      "short_notional": 15747000.12
+      "long_ratio": 0.506,
+      "short_ratio": 0.494,
+      "whale_count": 122,
+      "total_notional": 80257418.25,
+      "long_notional": 40571042.81,
+      "short_notional": 39686375.44
     },
     {
       "coin": "ZEC",
       "signal": "NEUTRAL",
-      "long_ratio": 0.652,
-      "short_ratio": 0.348,
+      "long_ratio": 0.663,
+      "short_ratio": 0.337,
       "whale_count": 25,
-      "total_notional": 12456457.39,
-      "long_notional": 8124025.21,
-      "short_notional": 4332432.18
+      "total_notional": 11995781.78,
+      "long_notional": 7957146.52,
+      "short_notional": 4038635.26
     },
     {
       "coin": "XMR",
       "signal": "NEUTRAL",
-      "long_ratio": 0.417,
-      "short_ratio": 0.583,
+      "long_ratio": 0.412,
+      "short_ratio": 0.588,
       "whale_count": 5,
-      "total_notional": 1606490.5,
-      "long_notional": 670477.54,
-      "short_notional": 936012.96
+      "total_notional": 1602654.64,
+      "long_notional": 659860.19,
+      "short_notional": 942794.46
     },
     {
       "coin": "LIT",
       "signal": "NEUTRAL",
-      "long_ratio": 0.679,
-      "short_ratio": 0.321,
+      "long_ratio": 0.666,
+      "short_ratio": 0.334,
       "whale_count": 21,
-      "total_notional": 1123177.55,
-      "long_notional": 762087.47,
-      "short_notional": 361090.07
+      "total_notional": 1086946.85,
+      "long_notional": 724269.47,
+      "short_notional": 362677.37
     },
     {
       "coin": "LDO",
       "signal": "NEUTRAL",
-      "long_ratio": 0.659,
-      "short_ratio": 0.341,
+      "long_ratio": 0.648,
+      "short_ratio": 0.352,
       "whale_count": 5,
-      "total_notional": 944088.62,
-      "long_notional": 622251.37,
-      "short_notional": 321837.25
+      "total_notional": 940963.84,
+      "long_notional": 609728.83,
+      "short_notional": 331235.01
     },
     {
-      "coin": "XLM",
+      "coin": "PENGU",
       "signal": "NEUTRAL",
-      "long_ratio": 0.695,
-      "short_ratio": 0.305,
-      "whale_count": 6,
-      "total_notional": 713810.38,
-      "long_notional": 496141.33,
-      "short_notional": 217669.05
-    },
-    {
-      "coin": "ONDO",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.39,
-      "short_ratio": 0.61,
+      "long_ratio": 0.376,
+      "short_ratio": 0.624,
       "whale_count": 8,
-      "total_notional": 611557.37,
-      "long_notional": 238433.3,
-      "short_notional": 373124.07
+      "total_notional": 590949.13,
+      "long_notional": 222124.7,
+      "short_notional": 368824.43
+    },
+    {
+      "coin": "GRAM",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.975,
+      "short_ratio": 0.025,
+      "whale_count": 2,
+      "total_notional": 589325.75,
+      "long_notional": 574692.58,
+      "short_notional": 14633.17
     },
     {
       "coin": "POL",
       "signal": "NEUTRAL",
-      "long_ratio": 0.983,
-      "short_ratio": 0.017,
+      "long_ratio": 0.982,
+      "short_ratio": 0.018,
       "whale_count": 2,
-      "total_notional": 565993.84,
+      "total_notional": 566847.53,
       "long_notional": 556576.32,
-      "short_notional": 9417.52
+      "short_notional": 10271.21
     },
     {
       "coin": "CRV",
       "signal": "NEUTRAL",
-      "long_ratio": 0.421,
-      "short_ratio": 0.579,
+      "long_ratio": 0.413,
+      "short_ratio": 0.587,
       "whale_count": 8,
-      "total_notional": 540491.69,
+      "total_notional": 550225.57,
       "long_notional": 227473.62,
-      "short_notional": 313018.07
+      "short_notional": 322751.95
     },
     {
       "coin": "ATOM",
       "signal": "NEUTRAL",
-      "long_ratio": 0.594,
-      "short_ratio": 0.406,
+      "long_ratio": 0.595,
+      "short_ratio": 0.405,
       "whale_count": 4,
-      "total_notional": 506936.25,
-      "long_notional": 301335.75,
-      "short_notional": 205600.49
+      "total_notional": 515813.43,
+      "long_notional": 307087.8,
+      "short_notional": 208725.63
     },
     {
-      "coin": "MORPHO",
+      "coin": "EIGEN",
       "signal": "NEUTRAL",
-      "long_ratio": 0.399,
-      "short_ratio": 0.601,
+      "long_ratio": 0.416,
+      "short_ratio": 0.584,
+      "whale_count": 6,
+      "total_notional": 234007.08,
+      "long_notional": 97368.27,
+      "short_notional": 136638.82
+    },
+    {
+      "coin": "LTC",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.596,
+      "short_ratio": 0.404,
       "whale_count": 5,
-      "total_notional": 266541.35,
-      "long_notional": 106219.02,
-      "short_notional": 160322.33
+      "total_notional": 224770.92,
+      "long_notional": 133991.73,
+      "short_notional": 90779.19
     },
     {
       "coin": "TIA",
       "signal": "NEUTRAL",
-      "long_ratio": 0.198,
-      "short_ratio": 0.802,
+      "long_ratio": 0.199,
+      "short_ratio": 0.801,
       "whale_count": 2,
-      "total_notional": 198973.69,
-      "long_notional": 39345.34,
-      "short_notional": 159628.35
+      "total_notional": 219350.43,
+      "long_notional": 43559.4,
+      "short_notional": 175791.04
     },
     {
-      "coin": "TRB",
+      "coin": "STABLE",
       "signal": "NEUTRAL",
-      "long_ratio": 0.829,
-      "short_ratio": 0.171,
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
       "whale_count": 2,
-      "total_notional": 143136.96,
-      "long_notional": 118731.83,
-      "short_notional": 24405.13
+      "total_notional": 210732.2,
+      "long_notional": 0,
+      "short_notional": 210732.2
     },
     {
-      "coin": "CC",
+      "coin": "kSHIB",
       "signal": "NEUTRAL",
-      "long_ratio": 0.312,
-      "short_ratio": 0.688,
-      "whale_count": 4,
-      "total_notional": 139431.24,
-      "long_notional": 43524.82,
-      "short_notional": 95906.42
+      "long_ratio": 0.633,
+      "short_ratio": 0.367,
+      "whale_count": 3,
+      "total_notional": 207135.48,
+      "long_notional": 131050.09,
+      "short_notional": 76085.39
+    },
+    {
+      "coin": "RENDER",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 2,
+      "total_notional": 190025.54,
+      "long_notional": 190025.54,
+      "short_notional": 0
     },
     {
       "coin": "SAND",
       "signal": "NEUTRAL",
-      "long_ratio": 0.943,
-      "short_ratio": 0.057,
+      "long_ratio": 0.863,
+      "short_ratio": 0.137,
       "whale_count": 2,
-      "total_notional": 136525.79,
-      "long_notional": 128801.56,
-      "short_notional": 7724.23
+      "total_notional": 148622.39,
+      "long_notional": 128258.06,
+      "short_notional": 20364.33
+    },
+    {
+      "coin": "CC",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.316,
+      "short_ratio": 0.684,
+      "whale_count": 5,
+      "total_notional": 143263.44,
+      "long_notional": 45238.26,
+      "short_notional": 98025.18
     },
     {
       "coin": "ETC",
       "signal": "NEUTRAL",
-      "long_ratio": 0.83,
-      "short_ratio": 0.17,
+      "long_ratio": 0.798,
+      "short_ratio": 0.202,
       "whale_count": 2,
-      "total_notional": 135039.49,
+      "total_notional": 140377.97,
       "long_notional": 112066.84,
-      "short_notional": 22972.66
+      "short_notional": 28311.13
     },
     {
-      "coin": "ALT",
+      "coin": "TRB",
       "signal": "NEUTRAL",
-      "long_ratio": 0.183,
-      "short_ratio": 0.817,
+      "long_ratio": 0.845,
+      "short_ratio": 0.155,
       "whale_count": 2,
-      "total_notional": 127469.32,
-      "long_notional": 23280.3,
-      "short_notional": 104189.03
+      "total_notional": 132180.44,
+      "long_notional": 111703.92,
+      "short_notional": 20476.52
     },
     {
       "coin": "BLUR",
       "signal": "NEUTRAL",
-      "long_ratio": 0.085,
-      "short_ratio": 0.915,
+      "long_ratio": 0.099,
+      "short_ratio": 0.901,
       "whale_count": 2,
-      "total_notional": 126899.55,
-      "long_notional": 10781.38,
+      "total_notional": 128830.44,
+      "long_notional": 12712.27,
       "short_notional": 116118.17
     },
     {
       "coin": "NEO",
       "signal": "NEUTRAL",
-      "long_ratio": 0.828,
-      "short_ratio": 0.172,
+      "long_ratio": 0.802,
+      "short_ratio": 0.198,
       "whale_count": 2,
-      "total_notional": 126784.66,
-      "long_notional": 104979.12,
-      "short_notional": 21805.55
+      "total_notional": 128519.63,
+      "long_notional": 103084.68,
+      "short_notional": 25434.96
+    },
+    {
+      "coin": "ALT",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.165,
+      "short_ratio": 0.835,
+      "whale_count": 2,
+      "total_notional": 124809.48,
+      "long_notional": 20620.45,
+      "short_notional": 104189.03
     },
     {
       "coin": "CHIP",
@@ -1039,59 +1059,49 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 2,
-      "total_notional": 114316.83,
-      "long_notional": 114316.83,
+      "total_notional": 119327.07,
+      "long_notional": 119327.07,
       "short_notional": 0
-    },
-    {
-      "coin": "PENGU",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.469,
-      "short_ratio": 0.531,
-      "whale_count": 5,
-      "total_notional": 105493.02,
-      "long_notional": 49471.85,
-      "short_notional": 56021.16
-    },
-    {
-      "coin": "IOTA",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.023,
-      "short_ratio": 0.977,
-      "whale_count": 2,
-      "total_notional": 105197.41,
-      "long_notional": 2469.96,
-      "short_notional": 102727.45
     },
     {
       "coin": "MEME",
       "signal": "NEUTRAL",
-      "long_ratio": 0.386,
-      "short_ratio": 0.614,
+      "long_ratio": 0.377,
+      "short_ratio": 0.623,
       "whale_count": 2,
-      "total_notional": 102663.68,
-      "long_notional": 39647.83,
-      "short_notional": 63015.85
+      "total_notional": 105342.89,
+      "long_notional": 39691.32,
+      "short_notional": 65651.57
     },
     {
-      "coin": "XAI",
+      "coin": "IOTA",
       "signal": "NEUTRAL",
-      "long_ratio": 0.415,
-      "short_ratio": 0.585,
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
       "whale_count": 2,
-      "total_notional": 90912.32,
-      "long_notional": 37685.28,
-      "short_notional": 53227.03
+      "total_notional": 102979.49,
+      "long_notional": 0,
+      "short_notional": 102979.49
     },
     {
       "coin": "STBL",
       "signal": "NEUTRAL",
-      "long_ratio": 0.252,
-      "short_ratio": 0.748,
+      "long_ratio": 0.261,
+      "short_ratio": 0.739,
       "whale_count": 2,
-      "total_notional": 90527.31,
-      "long_notional": 22785.05,
-      "short_notional": 67742.26
+      "total_notional": 91625.47,
+      "long_notional": 23893.42,
+      "short_notional": 67732.05
+    },
+    {
+      "coin": "XAI",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.409,
+      "short_ratio": 0.591,
+      "whale_count": 2,
+      "total_notional": 90041.54,
+      "long_notional": 36814.51,
+      "short_notional": 53227.03
     },
     {
       "coin": "NOT",
@@ -1099,39 +1109,19 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 2,
-      "total_notional": 85209.69,
-      "long_notional": 85209.69,
+      "total_notional": 84316.71,
+      "long_notional": 84316.71,
       "short_notional": 0
     },
     {
       "coin": "ZETA",
       "signal": "NEUTRAL",
-      "long_ratio": 0.053,
-      "short_ratio": 0.947,
+      "long_ratio": 0.07,
+      "short_ratio": 0.93,
       "whale_count": 2,
-      "total_notional": 76934.37,
-      "long_notional": 4042.81,
-      "short_notional": 72891.56
-    },
-    {
-      "coin": "MET",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 2,
-      "total_notional": 72696.5,
-      "long_notional": 72696.5,
-      "short_notional": 0
-    },
-    {
-      "coin": "BABY",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.934,
-      "short_ratio": 0.066,
-      "whale_count": 2,
-      "total_notional": 70245.26,
-      "long_notional": 65608.38,
-      "short_notional": 4636.88
+      "total_notional": 79373.63,
+      "long_notional": 5590.38,
+      "short_notional": 73783.25
     },
     {
       "coin": "MINA",
@@ -1139,28 +1129,38 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 2,
-      "total_notional": 66817.5,
+      "total_notional": 76356.7,
       "long_notional": 0,
-      "short_notional": 66817.5
+      "short_notional": 76356.7
+    },
+    {
+      "coin": "BABY",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.933,
+      "short_ratio": 0.067,
+      "whale_count": 2,
+      "total_notional": 69110.91,
+      "long_notional": 64474.02,
+      "short_notional": 4636.88
     },
     {
       "coin": "RUNE",
       "signal": "NEUTRAL",
-      "long_ratio": 0.368,
-      "short_ratio": 0.632,
+      "long_ratio": 0.39,
+      "short_ratio": 0.61,
       "whale_count": 3,
-      "total_notional": 65584.59,
-      "long_notional": 24129.14,
+      "total_notional": 67935.5,
+      "long_notional": 26480.05,
       "short_notional": 41455.45
     },
     {
-      "coin": "2Z",
+      "coin": "SKR",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
-      "whale_count": 2,
-      "total_notional": 63054.09,
-      "long_notional": 63054.09,
+      "whale_count": 1,
+      "total_notional": 63135.39,
+      "long_notional": 63135.39,
       "short_notional": 0
     },
     {
@@ -1169,19 +1169,9 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 2,
-      "total_notional": 55367.22,
+      "total_notional": 58805.15,
       "long_notional": 0,
-      "short_notional": 55367.22
-    },
-    {
-      "coin": "MERL",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 54786.63,
-      "long_notional": 54786.63,
-      "short_notional": 0
+      "short_notional": 58805.15
     },
     {
       "coin": "GALA",
@@ -1189,58 +1179,38 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 2,
-      "total_notional": 54440.3,
-      "long_notional": 54440.3,
+      "total_notional": 56995.03,
+      "long_notional": 56995.03,
       "short_notional": 0
     },
     {
-      "coin": "DYDX",
+      "coin": "ENS",
       "signal": "NEUTRAL",
-      "long_ratio": 0.603,
-      "short_ratio": 0.397,
-      "whale_count": 4,
-      "total_notional": 52715.73,
-      "long_notional": 31778.95,
-      "short_notional": 20936.77
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 2,
+      "total_notional": 53844.85,
+      "long_notional": 0,
+      "short_notional": 53844.85
     },
     {
-      "coin": "SKR",
+      "coin": "HEMI",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 52165.38,
-      "long_notional": 52165.38,
+      "total_notional": 49346.85,
+      "long_notional": 49346.85,
       "short_notional": 0
     },
     {
-      "coin": "ME",
+      "coin": "MERL",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 51856.99,
-      "long_notional": 51856.99,
-      "short_notional": 0
-    },
-    {
-      "coin": "INIT",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 50470.47,
-      "long_notional": 50470.47,
-      "short_notional": 0
-    },
-    {
-      "coin": "kNEIRO",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 48400.83,
-      "long_notional": 48400.83,
+      "total_notional": 48510.18,
+      "long_notional": 48510.18,
       "short_notional": 0
     },
     {
@@ -1249,108 +1219,28 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 2,
-      "total_notional": 44802.1,
-      "long_notional": 44789.4,
+      "total_notional": 45873.6,
+      "long_notional": 45860.9,
       "short_notional": 12.7
-    },
-    {
-      "coin": "ICP",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 2,
-      "total_notional": 44489.81,
-      "long_notional": 11.83,
-      "short_notional": 44477.98
-    },
-    {
-      "coin": "PYTH",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 42555.44,
-      "long_notional": 42555.44,
-      "short_notional": 0
-    },
-    {
-      "coin": "IMX",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.675,
-      "short_ratio": 0.325,
-      "whale_count": 2,
-      "total_notional": 42391.56,
-      "long_notional": 28612.81,
-      "short_notional": 13778.75
-    },
-    {
-      "coin": "AZTEC",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 42087.91,
-      "long_notional": 0,
-      "short_notional": 42087.91
     },
     {
       "coin": "MOODENG",
       "signal": "NEUTRAL",
-      "long_ratio": 0.914,
-      "short_ratio": 0.086,
+      "long_ratio": 0.887,
+      "short_ratio": 0.113,
       "whale_count": 2,
-      "total_notional": 41706.35,
-      "long_notional": 38126.9,
-      "short_notional": 3579.45
+      "total_notional": 45560.46,
+      "long_notional": 40390.72,
+      "short_notional": 5169.74
     },
     {
-      "coin": "ANIME",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.623,
-      "short_ratio": 0.377,
-      "whale_count": 3,
-      "total_notional": 40826.14,
-      "long_notional": 25442.34,
-      "short_notional": 15383.79
-    },
-    {
-      "coin": "UMA",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 40114.34,
-      "long_notional": 0,
-      "short_notional": 40114.34
-    },
-    {
-      "coin": "ENS",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 2,
-      "total_notional": 39966.46,
-      "long_notional": 0,
-      "short_notional": 39966.46
-    },
-    {
-      "coin": "NXPC",
+      "coin": "kNEIRO",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 37324.35,
-      "long_notional": 37324.35,
-      "short_notional": 0
-    },
-    {
-      "coin": "HEMI",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 36996.61,
-      "long_notional": 36996.61,
+      "total_notional": 44644.21,
+      "long_notional": 44644.21,
       "short_notional": 0
     },
     {
@@ -1359,8 +1249,88 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 2,
-      "total_notional": 36975.27,
-      "long_notional": 36975.27,
+      "total_notional": 43691.34,
+      "long_notional": 43691.34,
+      "short_notional": 0
+    },
+    {
+      "coin": "AZTEC",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 42804.75,
+      "long_notional": 0,
+      "short_notional": 42804.75
+    },
+    {
+      "coin": "PYTH",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 41301.73,
+      "long_notional": 41301.73,
+      "short_notional": 0
+    },
+    {
+      "coin": "UMA",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 40863.55,
+      "long_notional": 0,
+      "short_notional": 40863.55
+    },
+    {
+      "coin": "NXPC",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 39220.31,
+      "long_notional": 39220.31,
+      "short_notional": 0
+    },
+    {
+      "coin": "ANIME",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.6,
+      "short_ratio": 0.4,
+      "whale_count": 3,
+      "total_notional": 38452.62,
+      "long_notional": 23068.83,
+      "short_notional": 15383.79
+    },
+    {
+      "coin": "INIT",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 37993.27,
+      "long_notional": 37993.27,
+      "short_notional": 0
+    },
+    {
+      "coin": "IMX",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.629,
+      "short_ratio": 0.371,
+      "whale_count": 2,
+      "total_notional": 37170.36,
+      "long_notional": 23391.6,
+      "short_notional": 13778.75
+    },
+    {
+      "coin": "MET",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 34843.02,
+      "long_notional": 34843.02,
       "short_notional": 0
     },
     {
@@ -1369,59 +1339,9 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 2,
-      "total_notional": 32824.54,
+      "total_notional": 34576.74,
       "long_notional": 0,
-      "short_notional": 32824.54
-    },
-    {
-      "coin": "STX",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 2,
-      "total_notional": 30878.43,
-      "long_notional": 30878.43,
-      "short_notional": 0
-    },
-    {
-      "coin": "LINEA",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 30342.74,
-      "long_notional": 30342.74,
-      "short_notional": 0
-    },
-    {
-      "coin": "APEX",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 29795.95,
-      "long_notional": 29795.95,
-      "short_notional": 0
-    },
-    {
-      "coin": "HYPER",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 29375.26,
-      "long_notional": 29375.26,
-      "short_notional": 0
-    },
-    {
-      "coin": "LAYER",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.768,
-      "short_ratio": 0.232,
-      "whale_count": 2,
-      "total_notional": 28775.16,
-      "long_notional": 22112.46,
-      "short_notional": 6662.7
+      "short_notional": 34576.74
     },
     {
       "coin": "AXS",
@@ -1429,9 +1349,19 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 2,
-      "total_notional": 26794.21,
+      "total_notional": 32530.91,
       "long_notional": 0,
-      "short_notional": 26794.21
+      "short_notional": 32530.91
+    },
+    {
+      "coin": "HYPER",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 32041.2,
+      "long_notional": 32041.2,
+      "short_notional": 0
     },
     {
       "coin": "MNT",
@@ -1439,8 +1369,8 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 2,
-      "total_notional": 26353.02,
-      "long_notional": 26353.02,
+      "total_notional": 29246.32,
+      "long_notional": 29246.32,
       "short_notional": 0
     },
     {
@@ -1449,49 +1379,29 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 25664.77,
+      "total_notional": 26870.19,
       "long_notional": 0,
-      "short_notional": 25664.77
+      "short_notional": 26870.19
     },
     {
-      "coin": "MOVE",
+      "coin": "LINEA",
       "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 2,
-      "total_notional": 25602.64,
-      "long_notional": 0,
-      "short_notional": 25602.64
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 26280.59,
+      "long_notional": 26280.59,
+      "short_notional": 0
     },
     {
       "coin": "TURBO",
       "signal": "NEUTRAL",
-      "long_ratio": 0.046,
-      "short_ratio": 0.954,
+      "long_ratio": 0.045,
+      "short_ratio": 0.955,
       "whale_count": 2,
-      "total_notional": 24990.38,
+      "total_notional": 25914.46,
       "long_notional": 1156.71,
-      "short_notional": 23833.66
-    },
-    {
-      "coin": "SPX",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.633,
-      "short_ratio": 0.367,
-      "whale_count": 3,
-      "total_notional": 24500.36,
-      "long_notional": 15520.75,
-      "short_notional": 8979.61
-    },
-    {
-      "coin": "PNUT",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 2,
-      "total_notional": 22993.45,
-      "long_notional": 22993.45,
-      "short_notional": 0
+      "short_notional": 24757.75
     },
     {
       "coin": "RSR",
@@ -1499,29 +1409,39 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 22362.93,
+      "total_notional": 25690.34,
       "long_notional": 0,
-      "short_notional": 22362.93
+      "short_notional": 25690.34
     },
     {
-      "coin": "BIGTIME",
+      "coin": "ME",
       "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 21724.91,
-      "long_notional": 0,
-      "short_notional": 21724.91
+      "total_notional": 24960.91,
+      "long_notional": 24960.91,
+      "short_notional": 0
     },
     {
-      "coin": "SUSHI",
+      "coin": "LAYER",
       "signal": "NEUTRAL",
-      "long_ratio": 0.736,
-      "short_ratio": 0.264,
+      "long_ratio": 0.721,
+      "short_ratio": 0.279,
       "whale_count": 2,
-      "total_notional": 21063.4,
-      "long_notional": 15508.41,
-      "short_notional": 5555.0
+      "total_notional": 23869.52,
+      "long_notional": 17206.83,
+      "short_notional": 6662.7
+    },
+    {
+      "coin": "APEX",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 23090.38,
+      "long_notional": 23090.38,
+      "short_notional": 0
     },
     {
       "coin": "BIO",
@@ -1529,69 +1449,29 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 18152.99,
-      "long_notional": 18152.99,
+      "total_notional": 22352.38,
+      "long_notional": 22352.38,
       "short_notional": 0
     },
     {
-      "coin": "WCT",
+      "coin": "SUSHI",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.747,
+      "short_ratio": 0.253,
+      "whale_count": 2,
+      "total_notional": 21940.32,
+      "long_notional": 16385.32,
+      "short_notional": 5555.0
+    },
+    {
+      "coin": "MOVE",
       "signal": "NEUTRAL",
       "long_ratio": 0.0,
       "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 16777.36,
+      "whale_count": 2,
+      "total_notional": 21458.77,
       "long_notional": 0,
-      "short_notional": 16777.36
-    },
-    {
-      "coin": "BOME",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 15371.39,
-      "long_notional": 15371.39,
-      "short_notional": 0
-    },
-    {
-      "coin": "CAKE",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.005,
-      "short_ratio": 0.995,
-      "whale_count": 2,
-      "total_notional": 14867.87,
-      "long_notional": 76.46,
-      "short_notional": 14791.41
-    },
-    {
-      "coin": "AVNT",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.828,
-      "short_ratio": 0.172,
-      "whale_count": 2,
-      "total_notional": 14765.5,
-      "long_notional": 12225.45,
-      "short_notional": 2540.06
-    },
-    {
-      "coin": "REZ",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 14441.43,
-      "long_notional": 0,
-      "short_notional": 14441.43
-    },
-    {
-      "coin": "SNX",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.465,
-      "short_ratio": 0.535,
-      "whale_count": 2,
-      "total_notional": 13265.42,
-      "long_notional": 6166.44,
-      "short_notional": 7098.98
+      "short_notional": 21458.77
     },
     {
       "coin": "HMSTR",
@@ -1599,29 +1479,169 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 12718.98,
-      "long_notional": 12718.98,
+      "total_notional": 20555.15,
+      "long_notional": 20555.15,
       "short_notional": 0
     },
     {
-      "coin": "BRETT",
+      "coin": "BIGTIME",
       "signal": "NEUTRAL",
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 11179.41,
+      "total_notional": 20138.61,
       "long_notional": 0,
-      "short_notional": 11179.41
+      "short_notional": 20138.61
     },
     {
-      "coin": "ZORA",
+      "coin": "AVNT",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.873,
+      "short_ratio": 0.127,
+      "whale_count": 2,
+      "total_notional": 19971.4,
+      "long_notional": 17431.34,
+      "short_notional": 2540.06
+    },
+    {
+      "coin": "SPX",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.466,
+      "short_ratio": 0.534,
+      "whale_count": 3,
+      "total_notional": 19171.91,
+      "long_notional": 8937.73,
+      "short_notional": 10234.19
+    },
+    {
+      "coin": "GOAT",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 10963.57,
-      "long_notional": 10963.57,
+      "total_notional": 19163.24,
+      "long_notional": 19163.24,
       "short_notional": 0
+    },
+    {
+      "coin": "PNUT",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 2,
+      "total_notional": 18516.02,
+      "long_notional": 18516.02,
+      "short_notional": 0
+    },
+    {
+      "coin": "STX",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 2,
+      "total_notional": 18396.08,
+      "long_notional": 18396.08,
+      "short_notional": 0
+    },
+    {
+      "coin": "MANTA",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 17280.33,
+      "long_notional": 0,
+      "short_notional": 17280.33
+    },
+    {
+      "coin": "SNX",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.577,
+      "short_ratio": 0.423,
+      "whale_count": 2,
+      "total_notional": 16783.52,
+      "long_notional": 9684.54,
+      "short_notional": 7098.98
+    },
+    {
+      "coin": "WCT",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 14707.09,
+      "long_notional": 0,
+      "short_notional": 14707.09
+    },
+    {
+      "coin": "REZ",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 14676.91,
+      "long_notional": 0,
+      "short_notional": 14676.91
+    },
+    {
+      "coin": "BOME",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 13687.28,
+      "long_notional": 13687.28,
+      "short_notional": 0
+    },
+    {
+      "coin": "GMX",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 13549.95,
+      "long_notional": 13549.95,
+      "short_notional": 0
+    },
+    {
+      "coin": "CAKE",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.006,
+      "short_ratio": 0.994,
+      "whale_count": 2,
+      "total_notional": 12036.12,
+      "long_notional": 76.46,
+      "short_notional": 11959.66
+    },
+    {
+      "coin": "CFX",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 11492.48,
+      "long_notional": 0,
+      "short_notional": 11492.48
+    },
+    {
+      "coin": "VINE",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 11352.98,
+      "long_notional": 0,
+      "short_notional": 11352.98
+    },
+    {
+      "coin": "GRIFFAIN",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 10931.23,
+      "long_notional": 0,
+      "short_notional": 10931.23
     },
     {
       "coin": "ACE",
@@ -1629,8 +1649,8 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 10757.48,
-      "long_notional": 10757.48,
+      "total_notional": 10857.39,
+      "long_notional": 10857.39,
       "short_notional": 0
     },
     {
@@ -1639,49 +1659,19 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 10427.87,
+      "total_notional": 10565.11,
       "long_notional": 0,
-      "short_notional": 10427.87
+      "short_notional": 10565.11
     },
     {
-      "coin": "GMX",
+      "coin": "ZORA",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 10135.83,
-      "long_notional": 10135.83,
+      "total_notional": 10446.87,
+      "long_notional": 10446.87,
       "short_notional": 0
-    },
-    {
-      "coin": "SOPH",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 2,
-      "total_notional": 9350.82,
-      "long_notional": 0,
-      "short_notional": 9350.82
-    },
-    {
-      "coin": "kLUNC",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.31,
-      "short_ratio": 0.69,
-      "whale_count": 2,
-      "total_notional": 9283.45,
-      "long_notional": 2873.75,
-      "short_notional": 6409.69
-    },
-    {
-      "coin": "CFX",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 9122.84,
-      "long_notional": 0,
-      "short_notional": 9122.84
     },
     {
       "coin": "FOGO",
@@ -1689,69 +1679,29 @@
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 8961.49,
-      "long_notional": 8961.49,
+      "total_notional": 10166.48,
+      "long_notional": 10166.48,
       "short_notional": 0
     },
     {
-      "coin": "GOAT",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 8872.89,
-      "long_notional": 8872.89,
-      "short_notional": 0
-    },
-    {
-      "coin": "GAS",
+      "coin": "BRETT",
       "signal": "NEUTRAL",
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 8665.74,
+      "total_notional": 9756.04,
       "long_notional": 0,
-      "short_notional": 8665.74
+      "short_notional": 9756.04
     },
     {
-      "coin": "VINE",
+      "coin": "2Z",
       "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 8487.37,
-      "long_notional": 0,
-      "short_notional": 8487.37
-    },
-    {
-      "coin": "GMT",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 7187.6,
-      "long_notional": 7187.6,
-      "short_notional": 0
-    },
-    {
-      "coin": "KAS",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 7133.95,
-      "long_notional": 7133.95,
-      "short_notional": 0
-    },
-    {
-      "coin": "BANANA",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 6735.86,
-      "long_notional": 0,
-      "short_notional": 6735.86
+      "long_ratio": 0.038,
+      "short_ratio": 0.962,
+      "whale_count": 2,
+      "total_notional": 9175.04,
+      "long_notional": 348.91,
+      "short_notional": 8826.13
     },
     {
       "coin": "BSV",
@@ -1759,89 +1709,29 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 6723.3,
+      "total_notional": 8373.64,
       "long_notional": 0,
-      "short_notional": 6723.3
+      "short_notional": 8373.64
     },
     {
-      "coin": "GRIFFAIN",
+      "coin": "GAS",
       "signal": "NEUTRAL",
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 6272.06,
+      "total_notional": 7988.32,
       "long_notional": 0,
-      "short_notional": 6272.06
+      "short_notional": 7988.32
     },
     {
-      "coin": "CELO",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 6251.4,
-      "long_notional": 0,
-      "short_notional": 6251.4
-    },
-    {
-      "coin": "ZEN",
+      "coin": "GMT",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 5684.88,
-      "long_notional": 5684.88,
+      "total_notional": 7864.74,
+      "long_notional": 7864.74,
       "short_notional": 0
-    },
-    {
-      "coin": "POLYX",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 5472.1,
-      "long_notional": 0,
-      "short_notional": 5472.1
-    },
-    {
-      "coin": "SKY",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 5281.82,
-      "long_notional": 5281.82,
-      "short_notional": 0
-    },
-    {
-      "coin": "SUPER",
-      "signal": "NEUTRAL",
-      "long_ratio": 1.0,
-      "short_ratio": 0.0,
-      "whale_count": 1,
-      "total_notional": 5204.4,
-      "long_notional": 5204.4,
-      "short_notional": 0
-    },
-    {
-      "coin": "PROVE",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 5105.21,
-      "long_notional": 0,
-      "short_notional": 5105.21
-    },
-    {
-      "coin": "USUAL",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 5053.3,
-      "long_notional": 0,
-      "short_notional": 5053.3
     },
     {
       "coin": "PEOPLE",
@@ -1849,28 +1739,68 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 4452.64,
+      "total_notional": 7607.38,
       "long_notional": 0,
-      "short_notional": 4452.64
+      "short_notional": 7607.38
     },
     {
-      "coin": "ZK",
+      "coin": "ZEN",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 3657.56,
-      "long_notional": 3657.56,
+      "total_notional": 7099.16,
+      "long_notional": 7099.16,
       "short_notional": 0
     },
     {
-      "coin": "SYRUP",
+      "coin": "kLUNC",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.015,
+      "short_ratio": 0.985,
+      "whale_count": 2,
+      "total_notional": 6509.83,
+      "long_notional": 100.14,
+      "short_notional": 6409.69
+    },
+    {
+      "coin": "PROVE",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 4836.14,
+      "long_notional": 0,
+      "short_notional": 4836.14
+    },
+    {
+      "coin": "POLYX",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 4650.15,
+      "long_notional": 0,
+      "short_notional": 4650.15
+    },
+    {
+      "coin": "SKY",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 4506.7,
+      "long_notional": 0,
+      "short_notional": 4506.7
+    },
+    {
+      "coin": "SUPER",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 2902.2,
-      "long_notional": 2902.2,
+      "total_notional": 4212.72,
+      "long_notional": 4212.72,
       "short_notional": 0
     },
     {
@@ -1879,29 +1809,99 @@
       "long_ratio": 0.0,
       "short_ratio": 1.0,
       "whale_count": 1,
-      "total_notional": 2827.45,
+      "total_notional": 4176.57,
       "long_notional": 0,
-      "short_notional": 2827.45
+      "short_notional": 4176.57
     },
     {
-      "coin": "AIXBT",
-      "signal": "NEUTRAL",
-      "long_ratio": 0.0,
-      "short_ratio": 1.0,
-      "whale_count": 1,
-      "total_notional": 2673.06,
-      "long_notional": 0,
-      "short_notional": 2673.06
-    },
-    {
-      "coin": "MANTA",
+      "coin": "KAS",
       "signal": "NEUTRAL",
       "long_ratio": 1.0,
       "short_ratio": 0.0,
       "whale_count": 1,
-      "total_notional": 1981.04,
-      "long_notional": 1981.04,
+      "total_notional": 3922.94,
+      "long_notional": 3922.94,
       "short_notional": 0
+    },
+    {
+      "coin": "ORDI",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.517,
+      "short_ratio": 0.483,
+      "whale_count": 3,
+      "total_notional": 3650.86,
+      "long_notional": 1888.95,
+      "short_notional": 1761.91
+    },
+    {
+      "coin": "ZK",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 3616.75,
+      "long_notional": 3616.75,
+      "short_notional": 0
+    },
+    {
+      "coin": "CELO",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 3081.2,
+      "long_notional": 0,
+      "short_notional": 3081.2
+    },
+    {
+      "coin": "SOPH",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 2,
+      "total_notional": 2502.63,
+      "long_notional": 0,
+      "short_notional": 2502.63
+    },
+    {
+      "coin": "BANANA",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 859.5,
+      "long_notional": 859.5,
+      "short_notional": 0
+    },
+    {
+      "coin": "USUAL",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 841.26,
+      "long_notional": 0,
+      "short_notional": 841.26
+    },
+    {
+      "coin": "AIXBT",
+      "signal": "NEUTRAL",
+      "long_ratio": 1.0,
+      "short_ratio": 0.0,
+      "whale_count": 1,
+      "total_notional": 761.73,
+      "long_notional": 761.73,
+      "short_notional": 0
+    },
+    {
+      "coin": "SYRUP",
+      "signal": "NEUTRAL",
+      "long_ratio": 0.0,
+      "short_ratio": 1.0,
+      "whale_count": 1,
+      "total_notional": 593.54,
+      "long_notional": 0,
+      "short_notional": 593.54
     }
   ],
   "errors": []
